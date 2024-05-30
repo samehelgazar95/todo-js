@@ -1,0 +1,95 @@
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+}
+main {
+  width: 450px;
+}
+main form {
+  border-bottom: 3px solid salmon;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+main form input {
+  width: 80%;
+  padding: 5px;
+}
+.update-input {
+  width: 100%;
+  border-bottom: 3px solid steelblue;
+}
+main form input:focus,
+.update-input:focus {
+  outline: none;
+}
+main form .form-btns {
+  text-align: center;
+  width: 23%;
+}
+.form-btns button,
+.form-btns .filter {
+  width: 100%;
+}
+main button,
+main form .filter {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+main button:hover,
+.filter:hover {
+  cursor: pointer;
+}
+.form-btns .filter:focus {
+  outline: none;
+}
+
+.todos {
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+}
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-bottom: 1px solid salmon;
+  padding-bottom: 10px;
+}
+.todo-container > p {
+  display: inline-block;
+  font-weight: bold;
+  width: 85%;
+  line-height: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+.todo-container .done {
+  text-decoration: line-through;
+}
+.todo-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.todo-container div button {
+  display: inline-block;
+  width: 55px;
+}
+
+.hide {
+  display: none;
+}
+
+.delete-all {
+  text-align: center;
+}
+.delete-all button {
+  width: 100px;
+}

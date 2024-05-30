@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo - CRUD</title>
+  </head>
+  <body>
+    <h1>Todo - CRUD</h1>
+    <main>
+      <form>
+        <input type="text" placeholder="Type Todo" />
+        <div class="form-btns">
+          <button type="submit">Add</button>
+          <select name="status" class="filter">
+            <option value="" disabled selected hidden>Filter</option>
+            <option value="all">All</option>
+            <option value="done">Done</option>
+            <option value="not-done">Not Done</option>
+          </select>
+        </div>
+      </form>
+      <section class="todos">
+        <!-- <div class="todo">
+              <div class="todo-container">
+                <input type="checkbox" class="checker" />
+                <p>Demo Todo</p>
+                <div class="btns">
+                  <button class="update">Update</button>
+                  <button class="delete">Delete</button>
+                </div>
+              </div>
+        </div> -->
+      </section>
+      <section class="delete-all">
+        <button>Delete All</button>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
