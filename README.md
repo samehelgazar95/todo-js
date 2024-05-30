@@ -1,6 +1,10 @@
 # Todo App
 
-This is a simple todo app that allows you to keep track of your tasks.
+Demo: https://samehelgazar95.github.io/todo-js/
+
+## Screenshots
+
+![demo](/assets/demo.png)
 
 ## What i have learnt:
 
@@ -25,7 +29,3 @@ This is a simple todo app that allows you to keep track of your tasks.
 2. Install dependencies.
 3. Run the app.
 4. Open your browser and navigate to `http://localhost:port/todo/index.html`
-
-## Screenshots
-
-![Screenshot](/assets/Screenshot%20from%202024-05-19%2018-33-29.png)
